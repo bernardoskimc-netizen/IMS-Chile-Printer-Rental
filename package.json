@@ -1,0 +1,22 @@
+{
+  "name": "ims-chile-printer-rental",
+  "version": "2.0.0",
+  "description": "Plataforma profesional de arriendo de impresoras Xerox & Kyocera",
+  "private": true,
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "workspaces": [
+    "packages/frontend",
+    "packages/backend"
+  ],
+  "scripts": {
+    "install-all": "npm install",
+    "dev": "npm run dev --workspaces",
+    "build": "npm run build --workspaces",
+    "start": "npm start --workspaces",
+    "lint": "npm run lint --workspaces",
+    "test": "npm test --workspaces"
+  }
+}
